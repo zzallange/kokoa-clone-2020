@@ -1,0 +1,181 @@
++<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <link rel="stylesheet" href="css/style.css" />
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Chats - Kokoa Clone</title>
+    </head>
+    <body>
+        <div class="status-bar">
+            <div class="status-bar__column">
+                <span>No Service</span>
+                <i class="fas fa-wifi"></i>
+            </div>
+            <div class="status-bar__column">
+                <span>18:43</span>
+            </div>
+            <div class="status-bar__column">
+                <span>11%</span>
+                <i class="fas fa-battery-full"></i>
+                <i class="fas fa-bolt"></i>
+            </div>
+        </div>
+
+        <header class="screen-header">
+            <h1 class="screen-header__title">Chats</h1>
+            <div class="screen-header__icons">
+                <span>
+                    <i class="fas fa-search fa-lg"></i>
+                </span>
+                <span>
+                    <i class="far fa-comment-dots fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fas fa-music fa-lg"></i>
+                </span>
+                <span>
+                    <i class="fas fa-cog fa-lg"></i>
+                </span>
+            </div>
+        </header>
+
+        <main class="main-screen">
+            <a href="chat.html">
+                <!-- user-component -->
+                <div class="user-component user-component__chat">
+                    <div class="user-component__column">
+                        <img
+                            src="img/spongebob.jpg"
+                            class="user-component__avatar user-component__avatar"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">Spongebob</h4>
+                            <h6 class="user-component__subtitle">
+                                Did you study hard?
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">21:20</span>
+                        <div class="badge">1</div>
+                    </div>
+                </div>
+                <!-- //user-component -->
+                <!-- user-component -->
+                <div class="user-component user-component__chat">
+                    <div class="user-component__column">
+                        <img
+                            src="img/patric.jpg"
+                            class="user-component__avatar user-component__avatar"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">Patric</h4>
+                            <h6 class="user-component__subtitle">
+                                I miss you😝
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">21:00</span>
+                        <div class="badge">3</div>
+                    </div>
+                </div>
+                <!-- //user-component -->
+                <!-- user-component -->
+                <div class="user-component user-component__chat">
+                    <div class="user-component__column">
+                        <img
+                            src="img/plankton.jpg"
+                            class="user-component__avatar user-component__avatar"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">plankton</h4>
+                            <h6 class="user-component__subtitle">
+                                Can you lend me some money?
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">20:58</span>
+                        <div class="badge">5</div>
+                    </div>
+                </div>
+                <!-- //user-component -->
+                <!-- user-component -->
+                <div class="user-component user-component__chat">
+                    <div class="user-component__column">
+                        <img
+                            src="img/squirrel.jpg"
+                            class="user-component__avatar user-component__avatar"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">squirrel</h4>
+                            <h6 class="user-component__subtitle">hey~</h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">20:43</span>
+                        <div class="badge">2</div>
+                    </div>
+                </div>
+                <!-- //user-component -->
+                <!-- user-component -->
+                <div class="user-component user-component__chat">
+                    <div class="user-component__column">
+                        <img
+                            src="img/krabs.jpg"
+                            class="user-component__avatar user-component__avatar"
+                        />
+                        <div class="user-component__text">
+                            <h4 class="user-component__title">plankton</h4>
+                            <h6 class="user-component__subtitle">
+                                I'm on television!!!!!!😎
+                            </h6>
+                        </div>
+                    </div>
+                    <div class="user-component__column">
+                        <span class="user-component__time">20:40</span>
+                        <div class="badge">1</div>
+                    </div>
+                </div>
+                <!-- //user-component -->
+            </a>
+        </main>
+
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__btn">
+                    <a class="nav__link" href="friends.html">
+                        <i class="far fa-user fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="chats.html">
+                        <span class="nav__notification badge">12</span>
+                        <i class="fas fa-comment fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="find.html">
+                        <i class="fas fa-search fa-2x"></i>
+                    </a>
+                </li>
+                <li class="nav__btn">
+                    <a class="nav__link" href="more.html">
+                        <span class="nav__notification"></span>
+                        <i class="fas fa-ellipsis-h fa-2x"></i>
+                    </a>
+                </li>
+            </ul>
+        </nav>
+
+        <div id="no-mobile">
+            <span>Your screen is too big😂</span>
+        </div>
+        <script
+            src="https://kit.fontawesome.com/6478f529f2.js"
+            crossorigin="anonymous"
+        ></script>
+    </body>
+</html>
