@@ -1,0 +1,67 @@
+.user-component {
+    justify-content: space-between;
+}
+.user-component,
+.user-component__column:first-child {
+    display: flex;
+    align-items: center;
+}
+.user-component__column:last-child {
+    color: rgba(0, 0, 0, 0.4);
+    /* badge가 오른쪽으로 붙을 수 있게 만듦 */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.user-component__avatar {
+    margin-right: 20px;
+    width: 70px;
+    height: 70px;
+    border-radius: 30px;
+}
+.user-component__avatar--xl {
+    width: 80px;
+    height: 80px;
+}
+.user-component__avatar--sm {
+    width: 60px;
+    height: 60px;
+    border-radius: 25px;
+}
+
+.user-component__title {
+    font-weight: 600;
+    font-size: 22px;
+}
+.user-component__title--not-bold {
+    font-weight: 400;
+}
+.user-component__subtitle {
+    margin-top: 8px;
+    font-size: 17px;
+    color: var(--gray);
+}
+.user-component__time {
+    display: block;
+    margin-bottom: 5px;
+}
+.user-component__chat {
+    margin-bottom: 20px;
+}
+/* .friends-screen__friends {
+    height: 100vh;
+} */
+.friends-screen__friends .user-component {
+    flex-direction: column;
+    align-items: flex-start;
+}
+.friends-screen__friends .user-component__column {
+    display: flex;
+    margin-bottom: 10px;
+    flex-direction: row;
+    align-items: center;
+}
+.friends-screen__friends .user-component__title {
+    color: #2f363e;
+}
